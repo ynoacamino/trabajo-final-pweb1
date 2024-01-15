@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de clientes</title>
+  <link rel="stylesheet" href="./styles/indexStyles.css">
+</head>
+<body>
+  <form>
+    <h2>Registro de Cuenta Bancaria</h2>
+
+    <label for="nombreTitular">
+      Nombre del Titular:
+      <input type="text" id="nombreTitular" name="nombreTitular" required>
+    </label>
+
+    <label for="numeroCuenta">
+      Número de Cuenta:
+      <input type="text" id="numeroCuenta" name="numeroCuenta" required>
+    </label>
+
+    <label for="nombreBanco">
+      Nombre del Banco:
+      <input type="text" id="nombreBanco" name="nombreBanco" required>
+    </label>
+
+    <label for="tipoCuenta">
+      Tipo de Cuenta:
+      <select id="tipoCuenta" name="tipoCuenta" required>
+          <option value="corriente">Corriente</option>
+          <option value="ahorro">Ahorro</option>
+      </select>
+    </label>
+
+    <button type="submit">Registrar Cuenta Bancaria</button>
+  </form>
+</body>
+</html>

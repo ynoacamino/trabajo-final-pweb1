@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de clientes</title>
+  <link rel="stylesheet" href="./styles/indexStyles.css">
+</head>
+<body>
+  <form>
+    <h2>Registro de Tarjeta de Crédito</h2>
+
+    <label for="nombreTitular">
+      <span>Nombre del Titular:</span>
+      <input type="text" id="nombreTitular" name="nombreTitular" required>
+    </label>
+
+    <label for="numeroTarjeta">
+      <span>Número de Tarjeta:</span>
+      <input type="text" id="numeroTarjeta" name="numeroTarjeta" required>
+    </label>
+
+    <label for="fechaExpiracion">
+      <span>Fecha de Expiración:</span>
+      <input type="text" id="fechaExpiracion" name="fechaExpiracion" placeholder="MM/AA" required>
+    </label>
+
+    <label for="codigoSeguridad">
+      <span>Código de Seguridad:</span>
+      <input type="text" id="codigoSeguridad" name="codigoSeguridad" required>
+    </label>
+
+    <button type="submit">Registrar Tarjeta</button>
+  </form>
+</body>
+</html>
